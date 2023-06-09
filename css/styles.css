@@ -1,0 +1,40 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Style the header */
+.header {
+  background-image: url('../image/living_planet.png');
+   background-repeat: no-repeat;
+   background-color:black;
+   background-position: center;
+  height: 200px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  
+  
+}
+
+
+.article {
+  padding: 20px;
+  background-color: #cfd1e4;
+  
+}
+
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+  
+}
+ul {
+  list-style-type: square;
+}
+
